@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Authentication App
+
+## Description
+
+This application is a Next.js project that demonstrates authentication using various providers. It showcases how to integrate authentication in a Next.js application seamlessly.
+
+## Technologies Used
+
+- **Next.js**: A React framework for server-side rendering and generating static websites.
+- **React**: A JavaScript library for building user interfaces.
+- **NextAuth.js**: Authentication for Next.js applications.
+- **JavaScript**: The programming language used for the application logic.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+
+## Tools Used
+
+- **Firebase**: A platform developed by Google for creating mobile and web applications.
+- **Google Cloud**: A suite of cloud computing services by Google.
+- **GitHub**: A platform for version control and collaboration.
+- **Toastify**: A library for creating toast notifications.
+- **Zod**: A TypeScript-first schema declaration and validation library.
+- **React Hook Form**: A library for managing form state and validation.
+- **bcrypt**: A library for hashing passwords.
+- **@hookform/resolvers**: A library that allows you to use external validation libraries with React Hook Form.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/yourusername/next-auth-app.git
+cd next-auth-app
+npm install
+```
+
+## Running the Application
+
+To run the application locally, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Authentication Methods
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This application supports the following authentication methods:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Google**: Authenticate using your Google account.
+- **GitHub**: Authenticate using your GitHub account.
+- **Email**: Authenticate using your email address.
+- **Firebase**: Authenticate using Firebase authentication.
